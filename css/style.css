@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: myFont ;
+    src: url(MonospaceTypewriter.ttf);
+}
+
+.bg{
+    font-family: myFont;
+    text-align: justify;
+}
+
+header{
+    background-color: rgba(253, 207, 214, 0.753);
+}
+
+h1{
+    text-align: center;
+}
+
+.imgCozinha{
+    width: 35vw;
+}
+
+#carouselExampleIndicators{
+    width: 60vw;
+}
+
+.navbar-brand{
+    font-size: 35px; 
+    color: black;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: black;
+}
+
+h3{
+    font-size: 20px;
+    
+}
+
+.h4{
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    height: 18vh; 
+    background-color: rgba(253, 207, 214, 0.753);
+}
+
+.h3footer{
+    font-size: 15px;
+    margin: 10px;
+}
+
+@media (max-width: 500px){
+    .imgCozinha{
+        display: none;
+    }
+    .h2Bemvindo{
+        margin-top: 20px;
+    }
+}
